@@ -38,7 +38,7 @@ Our filder has been created so let's move to it with our change directory comman
 
 Now we will grab the repository from github using the command 
 `git clone https://github.com/OaktonLunabotics/git_sandbox.git` <br />
-  <i>NOTE:</i> This may prompt you for your github username and password if you are not logged in.<br />
+  <i>Note:</i> This may prompt you for git hub credentials, simply type your username and password if need be. <br />
 
 We have successfully copied the repository! To check that this has been done type the command `ls`. You should see
 a new folder called 'git_sandox' (which is the name of our repository or file system stored on github).<br />
@@ -82,6 +82,11 @@ Now we have committed the file. If you run `git status` again you will notice th
 
 The last thing we need to do is push our changes to github.
 
-To <i>push</i> our code up the command is simply `git push`
+To <i>push</i> our code up the command is simply `git push` <br />
+<i>Note:</i> This may prompt you for git hub credentials, simply type your username and password if need be. <br />
+
+Now you have edited our source file. Everyone using the repository will have tour changes on their copies of the code.
+
+TODO: git pull, merge conflits, and branches
 
 Hello from Chris!
