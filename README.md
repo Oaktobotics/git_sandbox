@@ -84,12 +84,4 @@ The last thing we need to do is push our changes to github.
 
 To <i>push</i> our code up the command is simply `git push`
 
-
-
-
-
-
-
-
-
-
+Hello from Chris!
