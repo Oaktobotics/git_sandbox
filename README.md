@@ -11,7 +11,7 @@ Git is a software version control software that will allow us to edit and store 
 location. This will save having to send file to every team member and allow us to track all changes made to our code.
 A detailed explination about git can be found here: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
 
-<b>Step 0:</b> Getting Git
+<b>Step 0:</b> Getting Git<br />
 Instrunctions for installing git on Linux and Mac
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
@@ -44,6 +44,50 @@ We have successfully copied the repository! To check that this has been done typ
 a new folder called 'git_sandox' (which is the name of our repository or file system stored on github).<br />
  - Command explination<br />
   -- `ls` simply stands for list. This will list everything in the current folder/directory you are in.
+
+<b>Step 2:</b> Hello git! Your first commit. <br />
+Let's make a change to this README. We will do so by adding our name to the bottom of the file. Don't worry if you accidetally delete the entire file, we can always get it back using an older version from github.
+
+Change to the directory where the README is. Tt should be in our folder at "git_sandbox/READEME.md" so we will use the command `cd git_sandbox`.<br />
+(If you follwed the steps above our full path will be: home->git_test->git_sandbox or ~/git_test/git_sandbox/)
+
+now run the command `ls` and you should see our file `README.md`
+
+-- Edit the file --<br />
+Edit the file in your favorite text editor. Make sure you are editing the correct file in our repository path (path from above..~/git_test/git_sandbox/README.md) <br />
+Add a greeting with your name to the bottom of the file like "Hello from \<your_name>"
+
+Once the file has be edited pop back over to your terminal. Remember if you are not in the directory with our edited file, you can always change back with `cd ~/git_test/git_sandbox/`
+
+Now that we are at our terminal in the correct directory type type `git status` <br /> 
+ - What am I seeing? <br /> 
+   -- you should see "modified:   README.md" in red this means that git is aware that you have made changes to this fie <br />
+  -- The red color means that our file has been changed but not staged (i.e not ready to push to our remote github location)
+
+We need to now stage (or <i>add</i>) our file. This means that we are getting ready to push and letteing git know that this file is ready to be merged into our github main branch. To stage (<i>add</i>) use the comand `git add <file_name>` in our case we will do `git add README.md` 
+
+Now type `git status` again, our file should be green.
+
+We are ready to commit!
+
+Committing means that we are going to esentially stamp our code change with a unique ID so git can keep track of when it was changed. When you commit it is a good idea to add a helpful message briefly describing what changes you have made. <br />
+To make a <i>commit</i> use the command `git commit -m "A descriptive message"`
+ - What is this '-m' business?<br />
+ -- '-m' is an argument to the git commit command. After all commit is a function from the program git.<br />
+ -- after '-m' add a message in quotes and it will be attached with your commit and can be viewed by everone looking at the repository on github.
+
+In my case I will do `git commit -m "added chris's greeting to the README"`
+
+Now we have committed the file. If you run `git status` again you will notice that the modified file is no longer there.
+
+The last thing we need to do is push our changes to github.
+
+To <i>push</i> our code up the command is simply `git push`
+
+
+
+
+
 
 
 
