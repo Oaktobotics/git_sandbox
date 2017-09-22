@@ -19,7 +19,7 @@ To test if you have git installed open up your terminal program and type the com
 The output should be something like "git version 2.4.9" 
 
 <b>Step 1:</b> Getting this repository (Note this will not work if you do not have git installed) <br />
-This repository is located on github's server at the location "https://github.com/OaktonLunabotics/git_sandbox.git"
+This repository is located on github's server at the location "https://github.com/Oaktobotics/git_sandbox.git"
 
 First we will want to make a folder on our computer that will hold this repository 
 I like to put all my code in my home directory. Open up your terminal (if it is not already open).
@@ -37,7 +37,7 @@ Our folder has been created so let's move to it with our change directory comman
   <br />HINT: if you are no longer in the home directory you can use `cd ~/git_test`
 
 Now we will grab the repository from github using the command <br />
-`git clone https://github.com/OaktonLunabotics/git_sandbox.git` <br />
+`git clone https://github.com/Oaktobotics/git_sandbox.git` <br />
   <i>Note:</i> This may prompt you for git hub credentials, simply type your username and password if need be. <br />
 
 We have successfully copied the repository! To check that this has been done type the command `ls`. You should see
@@ -90,3 +90,5 @@ Now you have edited our source file. Everyone using the repository will have tou
 TODO: git pull, merge conflits, and branches
 
 Hello from Chris!
+
+Hello from Luke!
