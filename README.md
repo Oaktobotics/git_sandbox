@@ -37,7 +37,7 @@ Our folder has been created so let's move to it with our change directory comman
   <br />HINT: if you are no longer in the home directory you can use `cd ~/git_test`
 
 Now we will grab the repository from github using the command <br />
-`git clone https://github.com/OaktonLunabotics/git_sandbox.git` <br />
+`git clone https://github.com/Oaktobotics/git_sandbox.git` <br />
   <i>Note:</i> This may prompt you for git hub credentials, simply type your username and password if need be. <br />
 
 We have successfully copied the repository! To check that this has been done type the command `ls`. You should see
