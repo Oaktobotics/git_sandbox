@@ -19,7 +19,7 @@ To test if you have git installed open up your terminal program and type the com
 The output should be something like "git version 2.4.9" 
 
 <b>Step 1:</b> Getting this repository (Note this will not work if you do not have git installed) <br />
-This repository is located on github's server at the location "https://github.com/OaktonLunabotics/git_sandbox.git"
+This repository is located on github's server at the location "https://github.com/Oaktobotics/git_sandbox.git"
 
 First we will want to make a folder on our computer that will hold this repository 
 I like to put all my code in my home directory. Open up your terminal (if it is not already open).
@@ -90,3 +90,5 @@ Now you have edited our source file. Everyone using the repository will have tou
 TODO: git pull, merge conflits, and branches
 
 Hello from Chris!
+
+Hello from Luke!
